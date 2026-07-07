@@ -1,3 +1,4 @@
+# Clase Calculadora - version 2
 class Calculadora:
     def sumar(self, a, b):  
         return a + b
@@ -11,3 +12,4 @@ class Calculadora:
         return a ** b
     def modulo(self, a, b):
         return a % b
+# fin de la clase
