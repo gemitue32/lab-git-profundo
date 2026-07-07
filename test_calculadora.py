@@ -17,6 +17,11 @@ class TestCalculadora(unittest.TestCase):
 
     def test_dividir(self):
         self.assertEqual(self.calc.dividir(10, 2), 5)
+    def test_potencia(self):
+        self.assertEqual(self.calc.potencia(2, 3), 8)
+
+    def test_modulo(self):
+        self.assertEqual(self.calc.modulo(10, 3), 1)
 
 if __name__ == "__main__":
     unittest.main()
