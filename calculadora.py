@@ -9,3 +9,5 @@ class Calculadora:
         return a / b
     def potencia(self, a, b):
         return a ** b
+    def modulo(self, a, b):
+        return a % b
