@@ -1,3 +1,6 @@
+# version 3 - metodos ampliados
+# actualizado julio 2026
+
 class Calculadora:
     def sumar(self, a, b):  
         return a + b
