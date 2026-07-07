@@ -7,4 +7,5 @@ class Calculadora:
         return a * b
     def dividir(self, a, b):
         return a / b
-    
+    def potencia(self, a, b):
+        return a ** b
